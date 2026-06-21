@@ -1,22 +1,50 @@
-<!-- SNSセクションをNotionに合わせて強化 -->
-<section class="contents-box" id="sns">
-    <h2 class="section-title">SNS / LINKS</h2>
-    <div class="sns-grid">
-        <a href="YouTubeのURL" class="sns-item yt">YouTube</a>
-        <a href="TwitterのURL" class="sns-item tw">Twitter (X)</a>
-        <a href="TikTokのURL" class="sns-item tk">TikTok</a>
-        <a href="公式LINEのURL" class="sns-item ln">Official LINE</a>
-    </div>
-</section>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ひゅうがなつ Official Links</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- アイコンフォント（FontAwesome）を読み込み -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
 
-<!-- ガイドラインセクションを追加 -->
-<section class="contents-box" id="guideline">
-    <h2 class="section-title">GUIDELINE</h2>
-    <div class="guideline-card">
-        <h3>二次創作・切り抜きについて</h3>
-        <p>ひゅうがなつを応援してくださる皆様へ...</p>
-        <div class="link-btn">
-            <a href="guideline.html">ガイドラインを詳しく読む</a>
+    <div class="container">
+        <!-- プロフィール部分 -->
+        <header class="profile">
+            <div class="avatar">
+                <!-- ここに二人の写真をいれる（今は仮のグレー円） -->
+                <img src="images/profile.png" alt="Profile Picture" onerror="this.src='https://via.placeholder.com/150'">
+            </div>
+            <h1>ひゅうがなつ</h1>
+            <p class="bio">ひゅうがとなつの公式リンク集です！🌻🌳</p>
+        </header>
+
+        <!-- リンクボタン集 -->
+        <div class="links">
+            <a href="https://www.youtube.com/@自分のID" class="link-card" target="_blank">
+                <i class="fab fa-youtube"></i> YouTube
+            </a>
+            <a href="https://twitter.com/自分のID" class="link-card" target="_blank">
+                <i class="fab fa-twitter"></i> Twitter (X)
+            </a>
+            <a href="https://www.tiktok.com/@自分のID" class="link-card" target="_blank">
+                <i class="fab fa-tiktok"></i> TikTok
+            </a>
+            <a href="https://hueganatu.notion.site/..." class="link-card" target="_blank">
+                <i class="fas fa-book"></i> ガイドライン (Notion)
+            </a>
+            <a href="mailto:自分のアドレス" class="link-card">
+                <i class="far fa-envelope"></i> お問い合わせ
+            </a>
         </div>
+
+        <!-- フッター -->
+        <footer class="footer">
+            <p>&copy; hueganatu</p>
+        </footer>
     </div>
-</section>
+
+</body>
+</html>
